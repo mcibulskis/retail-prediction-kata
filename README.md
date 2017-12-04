@@ -86,17 +86,22 @@ scenario with the mock client (see below).
 
 1. Which features are important in the data that is provided? How did you
    select them?  What justification do you have for their usefulness?
+
 1. Do you have sufficient data to accomplish what the mock client is
    requesting?
-  1. If not, what other data would you want to ask for, and why would you want
-     it? In other words, what would having that data allow you to do that you
-     otherwise would not be able to do?
-  1. What if you cannot get that data? (The client does not have it or is
-     unwilling to supply it.)  What can you do with the data that you
-     have, and what are the limitations on what you can do with it?
+
+   If not, what other data would you want to ask for, and why would you want
+   it? In other words, what would having that data allow you to do that you
+   otherwise would not be able to do?
+
+   What if you cannot get that data? (The client does not have it or is
+   unwilling to supply it.)  What can you do with the data that you
+   have, and what are the limitations on what you can do with it?
+
 1. Given what you have available, what algorithms or techniques are you
    going to use?  Please demonstrate that they perform sufficiently well for
    the mock client's requests.
+   
 1. Which of your generated artifacts would you use when collaborating with
    the development team to implement your proposed solutions?  How would you
    use them, and what value do they bring in using them in those ways?
