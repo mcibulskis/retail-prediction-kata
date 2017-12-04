@@ -119,7 +119,7 @@ similarity to actual companies or company needs, whether they are past or
 future clients, is coincidental and completely unintentional.*
 
 A new client, Interesting Goods, International, has approached us asking for
-assistance, to help them better predict some of their needs.  They are based
+assistance to help them better predict some of their needs.  They are based
 in the UK, but sell and ship internationally to customers in multiple
 different countries, most of whom are resellers or wholesalers.
 
