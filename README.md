@@ -93,12 +93,12 @@ scenario with the mock client (see below).
 
    Which features are unimportant?  Why?
 
-1. Do you have sufficient data to accomplish what the mock client is
-   requesting?
+1. Do you have sufficient data and information to accomplish what the mock
+   client is requesting?
 
-   If not, what other data would you want to ask for, and why would you want
-   it? In other words, what would having that data allow you to do that you
-   otherwise would not be able to do?
+   If not, what other data or information would you want to ask for, and why
+   would you want it? In other words, what would having that data or
+   information allow you to do that you otherwise would not be able to do?
 
    What if you cannot get that data? (The client does not have it or is
    unwilling to supply it.)  What can you do with the data that you
@@ -119,4 +119,54 @@ similarity to actual companies or company needs, whether they are past or
 future clients, is coincidental and completely unintentional.*
 
 A new client, Interesting Goods, International, has approached us asking for
-assistance, to help them better predict some of their needs.
+assistance, to help them better predict some of their needs.  They are based
+in the UK, but sell and ship internationally to customers in multiple
+different countries, most of whom are resellers or wholesalers.
+
+They have been growing significantly over the past few years.  As a result, they
+have been looking for ways to streamline their inventory management and improve
+customer satisfaction.  Their goal is to reduce various costs, such as having
+too much inventory on hand (increasing overhead and reducing available cash
+flow) and having too little inventory on hand (incurring the cost of having
+to expedite shipping from their suppliers and to their customers).
+
+They have collected, and will be supplying to us, sales data for the past 21
+months.  (Data available [here](https://www.kaggle.com/carrie1/ecommerce-data).)
+
+The two primary problems that they would like to solve are:
+
+1. **Streamline inventory management:**  They would like to be able to better
+   predict demand for products so that they have sufficient time to re-order items
+   to ensure that they are available for when customers order them.  At the same
+   time, they would like to minimize the amount of inventory that they keep on-hand
+   in order to maximize their available cash flow.
+
+2. **Simplify customer re-ordering:**  A significant portion of the customer
+   base are repeat customers.  While there is variation in orders, there are
+   some items that are repeatedly purchased.  The client believes (but has
+   not yet done any kind of statistical analysis to justify the belief) that
+   adding a feature to the website to suggest that customers re-order items
+   that they commonly purchase would simplify the customer's experience and
+   increase their satisfaction, resulting in increased customer loyalty,
+   retention, and sales.
+
+A secondary problem that the client would like to solve is:
+
+1. **Selection of locations for distributed warehouses:**  As the client
+   continues to grow, they would like to be able to intelligently select
+   locations for small "warehouses", at which they could store and ship very
+   common items to nearby countries, thus reducing shipping costs for their
+   customers.  This would increase customer satisfaction, resulting in increased
+   customer loyalty, retention, and sales.  The client would like these
+   locations to be relatively small, containing only the most common items
+   ordered by companies in the nearby countries, with the main warehouse in
+   the UK storing and shipping the remaining less-commonly ordered items.
+   At the same time, they would like to minimize the number of these additional
+   warehouses, because each warehouse comes with increased overhead costs
+   in terms of facilities, personnel, shipping costs, etc.
+
+Because new products are added over time, demand for products changes over time,
+and products are seasonally removed from the product line, a one-time, static
+analysis for any of the client's stated problems will not be sufficient for
+their needs.  They require a system (or systems) that will continue to adapt to
+changing product lines, customer demand, and continued growth of their company.
