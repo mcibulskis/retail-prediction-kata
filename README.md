@@ -88,12 +88,12 @@ scenario with the mock client (see below).
    select them?  What justification do you have for their usefulness?
 1. Do you have sufficient data to accomplish what the mock client is
    requesting?
-  * If not, what other data would you want to ask for, and why would you want
-    it? In other words, what would having that data allow you to do that you
-    otherwise would not be able to do?
-  * What if you cannot get that data? (The client does not have it or is
-    unwilling to supply it.)  What can you do with the data that you
-    have, and what are the limitations on what you can do with it?
+  1. If not, what other data would you want to ask for, and why would you want
+     it? In other words, what would having that data allow you to do that you
+     otherwise would not be able to do?
+  1. What if you cannot get that data? (The client does not have it or is
+     unwilling to supply it.)  What can you do with the data that you
+     have, and what are the limitations on what you can do with it?
 1. Given what you have available, what algorithms or techniques are you
    going to use?  Please demonstrate that they perform sufficiently well for
    the mock client's requests.
