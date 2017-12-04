@@ -130,7 +130,7 @@ too much inventory on hand (increasing overhead and reducing available cash
 flow) and having too little inventory on hand (incurring the cost of having
 to expedite shipping from their suppliers and to their customers).
 
-They have collected, and will be supplying to us, sales data for the past 21
+They have collected, and will be supplying to us, sales data for the past 12
 months.  (Data available [here](https://www.kaggle.com/carrie1/ecommerce-data).)
 
 The two primary problems that they would like to solve are:
