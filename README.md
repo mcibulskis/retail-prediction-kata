@@ -51,14 +51,18 @@ website.
 
 ### Produced Artifacts
 All produced artifacts should be submitted via a link to one of your public
-GitHub or BitBucket repositories.  (If you do not have a GitHub or BitBucket
-account, you can register and have public repositories for free.)
+[GitHub](https://www.github.com) or [BitBucket](https://www.bitbucket.org)
+repositories.
+
+*(If you do not have a GitHub or BitBucket account, you can register and have
+public repositories for free.)*
 
 * **Code:**  Any code that is produced for this exercise should be committed
   to your GitHub or BitBucket repository.
 * **Written Answers/Discussion:** The suggested format for written answers or
   discussion to any of the questions (see below) is either as a plain text file,
-  markdown file, LaTeX file, or Jupyter Notebook in your GitHub or BitBucket
+  markdown file, [LaTeX](https://www.latex-project.org) file,
+  or [Jupyter Notebook](http://jupyter.org) in your GitHub or BitBucket
   repository.
 * **Other Artifacts:**  If there are other artifacts that you would like to
   show, because they are a part of your typical way of collaborating on,
@@ -110,3 +114,9 @@ scenario with the mock client (see below).
 
 ---
 ## Scenario
+*Disclaimer: This is an imaginary scenario with a mock client.  Any perceived
+similarity to actual companies or company needs, whether they are past or
+future clients, is coincidental and completely unintentional.*
+
+A new client, Interesting Goods, International, has approached us asking for
+assistance, to help them better predict some of their needs.
