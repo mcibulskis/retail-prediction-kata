@@ -79,39 +79,6 @@ public repositories for free.)*
   notes should be included as either plain text files, markdown files, LaTeX
   files, or part of your Jupyter Notebook in your GitHub or BitBucket repository.
 
-### Questions/Topics for Discussion
-There are not necessarily "right" or "wrong" answers to these questions/topics.
-We use your answers to assist with better understanding how you work and how
-you are approaching creating and collaborating on the solutions you are
-proposing.
-
-Please answer all questions/topics for discussion in the context of the
-scenario with the mock client (see below).
-
-1. Which features are important in the data that is provided? How did you
-   select them?  What justification do you have for their usefulness?
-
-   Which features are unimportant?  Why?
-
-1. Do you have sufficient data and information to accomplish what the mock
-   client is requesting?
-
-   If not, what other data or information would you want to ask for, and why
-   would you want it? In other words, what would having that data or
-   information allow you to do that you otherwise would not be able to do?
-
-   What if you cannot get that data? (The client does not have it or is
-   unwilling to supply it.)  What can you do with the data that you
-   have, and what are the limitations on what you can do with it?
-
-1. Given what you have available, what algorithms or techniques are you
-   going to use?  Please demonstrate that they perform sufficiently well for
-   the mock client's requests.
-
-1. Which of your generated artifacts would you use when collaborating with
-   the development team to implement your proposed solutions?  How would you
-   use them, and what value do they bring in using them in those ways?
-
 ---
 ## Scenario
 *Disclaimer: This is an imaginary scenario with a mock client.  Any perceived
@@ -150,23 +117,46 @@ The two primary problems that they would like to solve are:
    increase their satisfaction, resulting in increased customer loyalty,
    retention, and sales.
 
-A secondary problem that the client would like to solve is:
-
-1. **Selection of locations for distributed warehouses:**  As the client
-   continues to grow, they would like to be able to intelligently select
-   locations for small "warehouses", at which they could store and ship very
-   common items to nearby countries, thus reducing shipping costs for their
-   customers.  This would increase customer satisfaction, resulting in increased
-   customer loyalty, retention, and sales.  The client would like these
-   locations to be relatively small, containing only the most common items
-   ordered by companies in the nearby countries, with the main warehouse in
-   the UK storing and shipping the remaining less-commonly ordered items.
-   At the same time, they would like to minimize the number of these additional
-   warehouses, because each warehouse comes with increased overhead costs
-   in terms of facilities, personnel, shipping costs, etc.
-
 Because new products are added over time, demand for products changes over time,
 and products are seasonally removed from the product line, a one-time, static
 analysis for any of the client's stated problems will not be sufficient for
 their needs.  They require a system (or systems) that will continue to adapt to
 changing product lines, customer demand, and continued growth of their company.
+
+---
+
+## Questions/Topics for Discussion
+There are not necessarily "right" or "wrong" answers to these questions/topics.
+We use your answers to assist with better understanding how you work and how
+you are approaching creating and collaborating on the solutions you are
+proposing.
+
+Please answer all questions/topics for discussion in the context of the
+scenario with the mock client (see below).
+
+1. Given what you have available, what algorithms, techniques, or models did you use?
+   What are the trade-offs you saw in making your decision? 
+   If you had more time, what avenue do you believe offers the most promise?
+
+1. Which features are important in the data that is provided? How did you
+   select them?  What justification do you have for their usefulness?
+
+   Which features are unimportant?  Why?
+   
+1. How did you assess the accuracy of your implementation?
+
+1. Do you have sufficient data and information to accomplish what the mock
+   client is requesting?
+
+   If not, what other data or information would you want to ask for, and why
+   would you want it? In other words, what would having that data or
+   information allow you to do that you otherwise would not be able to do?
+
+   What if you cannot get that data? (The client does not have it or is
+   unwilling to supply it.)  What can you do with the data that you
+   have, and what are the limitations on what you can do with it?
+
+1. Which of your generated artifacts would you use when collaborating with
+   the development team to implement your proposed solutions?  How would you
+   use them, and what value do they bring in using them in those ways?
+
