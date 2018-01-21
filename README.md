@@ -11,15 +11,19 @@ More specifically, we are looking to get some idea of the following things in
 more depth than we would be able to during a short, in-person interview:
 
 * How do you approach problems?
-* What kinds of options you consider and how you decide to pursue some and
-  abandon others?
-* Your consideration of the business' needs, how you might interact with the
-  business, and how that plays into your thought process
+* What kinds of options did you consider, how did you decide to pursue some and
+  abandon others, and how are your decisions are justified by the data?
+* How did you consider the business' needs, how might you interact with the
+  business, and how does that play into your thought process?
 * The kinds of artifacts that you typically produce as part of collaborating on
   or creating a proposed solution
 * The kinds of artifacts that you typically produce to facilitate collaboration
   with a development team
-
+* We expect that you will be writing some amount of code to do things like vet
+  your suggested models and facilitate conversations with developers.  We want
+  to be able to see and evaluate this code and how you are using it.
+* We expect that decisions will be justified based on analysis of the provided
+  data set.
 
 ---
 ## Format and Expectations
@@ -57,7 +61,7 @@ repositories.
 *(If you do not have a GitHub or BitBucket account, you can register and have
 public repositories for free.)*
 
-* **Code:**  Any code that is produced for this exercise should be committed
+* **Code:**  All code that is produced for this exercise should be committed
   to your GitHub or BitBucket repository.
 * **Written Answers/Discussion:** The suggested format for written answers or
   discussion to any of the questions (see below) is either as a plain text file,
@@ -117,6 +121,15 @@ The two primary problems that they would like to solve are:
    increase their satisfaction, resulting in increased customer loyalty,
    retention, and sales.
 
+   This will be a part of their existing website and the client does not
+   envision this entailing any new front-end work.  Instead, they would like
+   to enhance the suggestions that their back-end systems are already providing
+   (currently based solely on frequency of ordering).  The goal here is to
+   provide more intelligent predictions of items to be re-ordered.  For
+   example, we may be recommending the re-ordering because we believe the
+   customer may be running low on their stock of the item, based on the
+   patterns in their order history.
+
 A secondary problem that the client would like to solve is:
 
 1. **Selection of locations for distributed warehouses:**  As the client
@@ -158,10 +171,13 @@ scenario with the mock client (see below).
 
    Which features are unimportant?  Why?
 
-1. How did you assess the accuracy of your implementation?
+1. How did you vet the fitness of your selected algorithms or models?  Include
+   the relevant code and analysis of the results as part of your produced
+   artifacts.
 
 1. Do you have sufficient data and information to accomplish what the mock
-   client is requesting?
+   client is requesting?  Include justification based on analysis of the
+   provided data set.
 
    If not, what other data or information would you want to ask for, and why
    would you want it? In other words, what would having that data or
@@ -174,3 +190,4 @@ scenario with the mock client (see below).
 1. Which of your generated artifacts would you use when collaborating with
    the development team to implement your proposed solutions?  How would you
    use them, and what value do they bring in using them in those ways?
+   Include examples of these artifacts for us to inspect and evaluate.
